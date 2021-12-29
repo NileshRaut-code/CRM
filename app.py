@@ -5,7 +5,7 @@ from flask_pymongo import PyMongo
 import pymongo
 from pymongo import mongo_client
 
-connection_url = 'mongodb+srv://nilesh:Password@cluster0.6oqrn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+connection_url = 'mongodb+srv://admin:pass@cluster0.1wcsc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 app = Flask(__name__)
 client = pymongo.MongoClient(connection_url)
   
